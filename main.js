@@ -1,14 +1,14 @@
 // 'use strict';
 
-const http = require('http');
+// const http = require('http');
 
-const server = http.createServer((request, response) => {
-    response.end('hello world!!!');
+// const server = http.createServer((request, response) => {
+//     response.end('hello world!!!');
 
-});
-server.listen(8080, () => {
-    console.log('Сервер запущен на 8080 порту'); // это callback функция
-});
+// });
+// server.listen(8080, () => {
+//     console.log('Сервер запущен на 8080 порту'); // это callback функция
+// });
 const http = require('http');
 http.createServer((request, response) => {
     response.end('hello')
